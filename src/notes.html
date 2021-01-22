@@ -30,8 +30,10 @@
         </div>
       </div>
       <div class="col-8">
-        <input class="note-title" placeholder="Note Title" maxlength="28" type="text">
-        <textarea class="note-textarea" placeholder="Note Text"></textarea>
+        <label for="title" hidden>The Note Title</label>
+        <input class="note-title" id="title" name="title" placeholder="Note Title" maxlength="28" type="text">
+        <label for="note-data" hidden>The Note Data</label>
+        <textarea class="note-textarea" id="note-data" name="note-data" placeholder="Note Text"></textarea>
       </div>
     </div>
   </div>
