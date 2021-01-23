@@ -23,6 +23,7 @@
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Supported Versions](#supported-versions)
 - [Contributing](#contributing)
 - [Bugs and Issues](#bugs-and-issues)
 - [License](#license)
