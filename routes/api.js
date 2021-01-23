@@ -3,7 +3,7 @@ const fs = require('fs');
 
 module.exports = (app) => {
   app.get('/api/notes', (req, res) => {
-      // Get Magic
+    return res.json(savedNotes)
   });
 
   app.post('/api/notes', (req, res) => {
