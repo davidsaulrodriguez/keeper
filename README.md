@@ -100,6 +100,16 @@ See the development steps above. They are the exact steps required to deploy the
 
 If you are deploying to Heroku, there are already scripts in the `package.json` file to build the app and deploy it automatically on the platform.
 
+## Supported Versions
+
+Below is a list of the currently supported versions of this software.
+
+| Release | Status            | Initial Release | Active LTS Start | Maintenance LTS Start | End of Life |
+| :-----: | :----------------: | :-------------: | :------------------: | :--------------------: | :-: |
+| v1   | :heavy_check_mark: | 2021.01.26 | TBD | TBD | 2021.07.26 |
+
+You can view the Status Key Map [below](./SUPPORTED_VERSIONS.md#status-key-map).
+
 ## Contributing
 
 Contributions are more than welcome! If you improve on this project skeleton, please feel free to share it by submitting a Pull Request.
