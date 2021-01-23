@@ -46,9 +46,9 @@ task('scss-dist', function() {
 task('js-dist', function(){
   console.log("\t\tMinifying your JavaScript files...");
   console.log("\t\tCreating your JavaScript '.map' files...");
-  return src(['node_modules/bootstrap/dist/js/bootstrap.min.js',
-  'node_modules/jquery/dist/jquery.min.js',
-  'node_modules/popper.js/dist/umd/popper.min.js',
+  return src(['node_modules/bootstrap/dist/js/bootstrap.js',
+  'node_modules/jquery/dist/jquery.js',
+  'node_modules/popper.js/dist/umd/popper.js',
   'src/assets/js/**.js'])
   .pipe(sourcemap.init())
   .pipe(minify({
@@ -65,8 +65,7 @@ task('js-dist', function(){
 });
 
 task('db-dist', function(){
-  console.log("\t\tMinifying your JavaScript files...");
-  console.log("\t\tCreating your JavaScript '.map' files...");
+  console.log("\t\tMoving your JSON files...");
   return src(['src/db/**.json'])
   .pipe(dest(dbDist));
 });
