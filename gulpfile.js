@@ -65,7 +65,7 @@ task('js-dist', function(){
 });
 
 task('db-dist', function(){
-  console.log("\t\tMoving your JSON files...");
+  console.log("\t\tMoving your JSON DB file...");
   return src(['src/db/**.json'])
   .pipe(dest(dbDist));
 });
