@@ -107,7 +107,7 @@ Below is a list of the currently supported versions of this software.
 
 | Release | Status            | Initial Release | Active LTS Start | Maintenance LTS Start | End of Life |
 | :-----: | :----------------: | :-------------: | :------------------: | :--------------------: | :-: |
-| v1   | :heavy_check_mark: | 2021.01.26 | TBD | TBD | 2021.07.26 |
+| v1   | :heavy_check_mark: | 2021.01.23 | TBD | TBD | 2021.07.23 |
 
 You can view the Status Key Map [below](./SUPPORTED_VERSIONS.md#status-key-map).
 
