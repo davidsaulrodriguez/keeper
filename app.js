@@ -17,6 +17,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Point the server to the route files, these essentially act as a map for the Express Router
+require('./routes/api')(app);
 require('./routes/html')(app);
 
 const Port = process.env.PORT || 3000;
