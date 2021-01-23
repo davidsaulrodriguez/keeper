@@ -6,7 +6,8 @@
   "scripts": {
     "build": "gulp compile",
     "clean": "gulp clean",
-    "start": "gulp start"
+    "start": "node app",
+    "watch": "gulp start"
   },
   "repository": {
     "type": "git",

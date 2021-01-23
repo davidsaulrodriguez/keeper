@@ -1,12 +1,11 @@
 const path = require('path');
 
 module.exports = (app) => {
-  app.get('/notes', (req, res) => {
+  app.get('/notes', (_req, res) => {
     res.sendFile(path.join(__dirname, "../public/notes.html"));
   })
   
-  // If no matching route is found default to the index page
-  app.get('*', (req, res) => {
+  app.get('*', (_req, res) => {
     res.sendFile(path.join(__dirname, "../public/index.html"));
   })
 }
