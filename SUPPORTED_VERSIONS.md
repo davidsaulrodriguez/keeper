@@ -4,7 +4,7 @@ Below is a list of the currently supported versions of this software. You can vi
 
 | Release | Status            | Initial Release | Active LTS Start | Maintenance LTS Start | End of Life |
 | :-----: | :----------------: | :-------------: | :------------------: | :--------------------: | :-: |
-| 1.0.0   | :heavy_check_mark: | 2021.01.26 | TBD | TBD | 2021.07.26 |
+| v1   | :heavy_check_mark: | 2021.01.26 | TBD | TBD | 2021.07.26 |
 
 ## Status Key Map
 
