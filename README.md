@@ -17,37 +17,43 @@
 </span>
 
 ## Table of Contents
- - [Description](#description)
- - [Screenshot](#screenshots)
- - [Dependencies](#dependencies)
- - [Installation](#installation)
- - [Usage](#usage)
- - [Contributing](#contributing)
- - [Bugs and Issues](#bugs-and-issues)
- - [License](#license)
+
+- [Description](#description)
+- [Screenshot](#screenshots)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Bugs and Issues](#bugs-and-issues)
+- [License](#license)
 
 ## Description
+
 A note taking application that is built using NodeJS and Express and uses Bootstrap 4 as its CSS framework.
 
 ## Screenshots
 
-**Coming Soon**
+**Keeper's Main Index Page**![Keeper Index Screen](./screenshots/keeper-main.png)
+**Keeper - Empty Database View**![Keeper With Empty Database](./screenshots/keeper-empty.png)
+**Keeper - Create Note View**![Keeper Create Note](./screenshots/keeper-create-note.png)
+**Keeper - Saved Notes View**![Keeper View Saved Note](./screenshots/keeper-view-note.png)
 
 ## Dependencies
 
 **Project Dependencies**
- - "bootstrap": ^4.6.0
- - "del": ^6.0.0
- - "express": ^4.17.1
- - "gulp": ^4.0.2
- - "gulp-autoprefixer": ^7.0.1
- - "gulp-live-server": 0.0.31
- - "gulp-minify": ^3.1.0
- - "gulp-rename": ^2.0.0
- - "gulp-sass": ^4.1.0
- - "gulp-sourcemaps": ^3.0.0
- - "jquery": ^3.5.1
- - "popper.js": ^1.16.1
+
+- "bootstrap": ^4.6.0
+- "del": ^6.0.0
+- "express": ^4.17.1
+- "gulp": ^4.0.2
+- "gulp-autoprefixer": ^7.0.1
+- "gulp-live-server": 0.0.31
+- "gulp-minify": ^3.1.0
+- "gulp-rename": ^2.0.0
+- "gulp-sass": ^4.1.0
+- "gulp-sourcemaps": ^3.0.0
+- "jquery": ^3.5.1
+- "popper.js": ^1.16.1
 
 ## Installation
 
@@ -55,7 +61,7 @@ A note taking application that is built using NodeJS and Express and uses Bootst
 
 You will need the Node.js Package Manager (npm) for use with this project.
 
- - [Node.js][nodejs] and ```npm```
+- [Node.js][nodejs] and ```npm```
 
 ### Install
 
@@ -101,9 +107,11 @@ Contributions are more than welcome! If you improve on this project skeleton, pl
 Before contributing, be sure to check out the [CONTRIBUTING][contrib] file.
 
 ## Bugs and Issues
+
 Found a bug? Having an issue with this app? [Open a new issue][issues] here.
 
 ## License
+
 This project and all of its source code is released and permissively licensed under the [BSD 2 Clause][license] license.
 
 [ssone]: #
