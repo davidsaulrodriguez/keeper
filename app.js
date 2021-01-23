@@ -21,11 +21,10 @@ require('./routes/api')(app);
 require('./routes/html')(app);
 
 const PORT = process.env.PORT || 3000;
-const IP = process.env.IP || '127.0.0.1';
-app.listen(PORT, IP, (err) => {
+app.listen(PORT, (err) => {
     if (err) {
-        console.log(err)
-    } else {
-        console.log(`Server is listening at: http://${IP}:${PORT}`);
+       console.log(err)
+   } else {
+       console.log(`App running on port: ${PORT}`);
     }
 });
